@@ -1,0 +1,12 @@
+import SectionHeading from './SectionHeading'
+import { BriefcaseBusiness, GraduationCap } from 'lucide-react'
+export default function Experience() {
+  return <section id="experience" className="section-anchor border-y border-white/[.06] bg-white/[.015] py-28">
+    <div className="section-wrap"><SectionHeading eyebrow="04 / EXPERIENCE & EDUCATION" title="Experience that informs how I build" description="My professional IT experience gives me a practical understanding of users, systems, and the importance of dependable technology."/>
+      <div className="grid gap-5 md:grid-cols-2">
+        <article className="glass rounded-2xl p-7"><BriefcaseBusiness className="mb-5 text-violet-300" size={25}/><p className="mono text-xs text-violet-300">MARCH 2022 — PRESENT</p><h3 className="mt-2 text-xl font-bold">IT Support Specialist</h3><p className="mt-1 text-sm text-slate-400">Porto's Bakery & Cafe</p><ul className="mt-5 space-y-3 text-sm leading-6 text-slate-400"><li>• Provide technical support for end-user devices, peripherals, and workplace technology.</li><li>• Troubleshoot hardware, software, connectivity, and account-access issues.</li><li>• Support meeting-room A/V equipment and document useful troubleshooting solutions.</li><li>• Built Excel/VBA and Selenium-based automation for a menu-management workflow.</li></ul></article>
+        <article className="glass rounded-2xl p-7"><GraduationCap className="mb-5 text-cyan-300" size={25}/><p className="mono text-xs text-cyan-200">COMPUTER ENGINEERING COURSEWORK</p><h3 className="mt-2 text-xl font-bold">California State University, Northridge</h3><p className="mt-1 text-sm text-slate-400">CSUN · Coursework completed; degree not completed</p><p className="mt-5 text-sm leading-7 text-slate-400">Coursework has helped build a foundation in programming, computer systems, and engineering concepts. Currently continuing the path toward a computer science degree and expanding practical development experience.</p><div className="mt-5 rounded-xl bg-white/[.04] p-4 text-xs leading-6 text-slate-500">Education details are intentionally phrased as coursework rather than implying a completed degree.</div></article>
+      </div>
+    </div>
+  </section>
+}
